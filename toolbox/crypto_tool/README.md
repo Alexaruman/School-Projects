@@ -34,6 +34,10 @@ A simple script that generates and saves a Fernet encryption key to a file.
 ```
 git clone https://github.com/Alexaruman/School-Projects.git
 ```
+2. Install requirements:
+```
+pip install -r crypto_requirements.txt
+```
 3. Run the script (see usage example)
 
 ## Arguments and options
