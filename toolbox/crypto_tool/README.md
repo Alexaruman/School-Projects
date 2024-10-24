@@ -6,6 +6,10 @@ A simple script for encrypting / decrypting the contents of a file using Fernet 
 ```
 git clone https://github.com/Alexaruman/School-Projects.git
 ```
+2. Install requirements:
+```
+pip install -r crypto_requirements.txt
+```
 3. Run the script (see usage example)
 
 ## Arguments
