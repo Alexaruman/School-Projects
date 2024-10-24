@@ -8,7 +8,7 @@ A script for scanning IP addresses for open ports using Nmap. Written in Python 
 
 2. Install requirements:
 
-```pip install -r requirements.txt```
+```pip install -r portscanner_requirements.txt```
 
 3. Run the script (see example)
 
