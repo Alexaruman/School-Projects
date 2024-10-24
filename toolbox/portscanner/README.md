@@ -4,7 +4,7 @@ A script for scanning IP addresses for open ports using Nmap. Written in Python 
 ## Installation
 1. Clone this repository:
 
-```git clone ""link""```
+```git clone https://github.com/Alexaruman/School-Projects/toolbox/portscanner.git```
 
 2. Install requirements:
 
