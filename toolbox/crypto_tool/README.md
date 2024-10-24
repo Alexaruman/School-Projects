@@ -4,7 +4,7 @@ A simple script for encrypting / decrypting the contents of a file using Fernet 
 ## Installation
 1. Clone this repo to your local machine:
 ```
-git clone "link"
+git clone https://github.com/Alexaruman/School-Projects.git
 ```
 3. Run the script (see usage example)
 
@@ -28,7 +28,7 @@ A simple script that generates and saves a Fernet encryption key to a file.
 ## Installation
 1. Clone this repo to your local machine:
 ```
-git clone "link"
+git clone https://github.com/Alexaruman/School-Projects.git
 ```
 3. Run the script (see usage example)
 
