@@ -19,22 +19,26 @@ nm = nmap.PortScanner()
 def scan(hosts, port_range):
     result = []
     for host in hosts:
-        nm.scan(host, arguments = f"-p{port_range}")
-        result.append(nm[host])
-        print("********************************")
-        print("Host : %s (%s)" % (host, nm[host].hostname()))
-        print("State : %s" % nm[host].state())
-            
-        for proto in nm[host].all_protocols():
-            print("***********")
-            print("Protocol : %s" % proto)
-            lport = nm[host][proto].keys()
-            sorted(lport)
+        try:
+            nm.scan(host, arguments = f"-p{port_range}")
+            result.append(nm[host])
+            print("********************************")
+            print("Host : %s (%s)" % (host, nm[host].hostname()))
+            print("State : %s" % nm[host].state())
                 
-            for port in lport:
-                print ("port : %s\tstate : %s\tservice : %s" % (port, nm[host][proto][port]['state'], nm[host][proto][port]['name']))
-            
-        print ("********************************")
+            for proto in nm[host].all_protocols():
+                print("***********")
+                print("Protocol : %s" % proto)
+                lport = nm[host][proto].keys()
+                sorted(lport)
+                    
+                for port in lport:
+                    print ("port : %s\tstate : %s\tservice : %s" % (port, nm[host][proto][port]['state'], nm[host][proto][port]['name']))
+                
+            print ("********************************")
+
+        except KeyError as e:
+            print(f"{e} unreachable")
     return result
 
 
