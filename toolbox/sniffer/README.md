@@ -1,5 +1,5 @@
 # sniffer.py
-A simple script for sniffing packets on a local network. Logs the captured data to a .txt file. Written in Python.
+A simple script for sniffing packets on a local network using scapy. Logs the captured data to a .txt file. Written in Python.
 
 ## Installation
 1. Clone this repo to your local machine:
