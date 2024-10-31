@@ -4,7 +4,7 @@ A simple script for sniffing packets on a local network. Logs the captured data 
 ## Installation
 1. Clone this repo to your local machine:
 ```
-git clone "link"
+git clone https://github.com/Alexaruman/School-Projects.git
 ```
 2. Install requirements:
 ```
