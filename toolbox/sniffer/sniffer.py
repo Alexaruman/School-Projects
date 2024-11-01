@@ -2,7 +2,7 @@ import argparse
 import datetime
 from scapy.all import *
 
-parser = argparse.ArgumentParser(description="Script for sniffing TCP connections in a local network")
+parser = argparse.ArgumentParser(description="Script for sniffing packets on a local network")
 parser.add_argument("-i", "--interface", type=str, help="Network from which frames will be captured. Defaults to monitoring all available networks")
 args = parser.parse_args()
 
