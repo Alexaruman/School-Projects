@@ -41,12 +41,14 @@ def main():
             username_ls = [line.strip() for line in u_file]
     except Exception as e:
         print(e)
+        exit()
     
     try:
         with open(args.password_file, "r") as pw_file:
            password_ls = [line.strip() for line in pw_file]
     except Exception as e:
         print(e)
+        exit()
 
     ssh_bruteforce(args.target_IP, username_ls, password_ls)
 
