@@ -12,7 +12,7 @@ pip install -r sniffer_requirements.txt
 ```
 3. Run the script (see usage example)
 
-## Option
+## Arguments and options
 **interface** - Network from which frames will be captured. Defaults to monitoring all available networks.
 
 ## Usage example
