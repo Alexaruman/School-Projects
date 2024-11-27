@@ -1,4 +1,4 @@
-# ssh_bruteforce.py
+# ssh_bruteforcer.py
 Script for bruteforcing an SSH login using paramiko. Written in Python.
 
 ## Installation
